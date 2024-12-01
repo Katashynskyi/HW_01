@@ -1,0 +1,16 @@
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+torchaudio==2.5.1+cu121
+torch-fidelity==0.3.0
+albumentations==1.4.21
+matplotlib==3.9.2
+numpy==1.26.4
+pandas==2.2.3
+pillow==10.2.0
+piq==0.8.0
+scikit-learn==1.5.2
+tqdm==4.67.0
+unique-names-generator==1.0.2
+wandb==0.18.7
+tensorboard @ file:///home/conda/feedstock_root/build_artifacts/tensorboard_1727435705122/work/tensorboard-2.18.0-py3-none-any.whl#sha256=107ca4821745f73e2aefa02c50ff70a9b694f39f790b11e6f682f7d326745eab
+torchmetrics     

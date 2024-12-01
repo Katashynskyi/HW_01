@@ -1,0 +1,14 @@
+epochs: 1
+device: cuda
+
+batch_size: 32
+learning_rate: 0.0002
+hidden_dim: 128
+num_layers: 12
+max_epochs: 1
+project_name: normalizing-flow-cifar10
+save_dir: checkpoints
+log_dir: runs
+results_dir: eval_results
+subset_size: 100 # remove value to train on full dataset
+model_state_dict:

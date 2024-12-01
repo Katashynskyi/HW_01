@@ -1,0 +1,15 @@
+epochs: 1
+batch_size: 128
+initial_lr: 0.001
+min_lr: 0.000001
+weight_decay: 0.0001
+grad_clip: 1.0
+patience: 6
+latent_dim: 128
+num_workers: 4
+save_dir: checkpoints
+log_dir: runs
+project_name: autoencoder-cifar
+data_dir: data
+device: cuda
+subset_size: 150 # remove value to train on full dataset

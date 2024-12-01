@@ -1,0 +1,6 @@
+checkpoint: checkpoints/best_4rf2srga.pt
+data_dir: ./data
+batch_size: 128
+num_workers: 4
+num_vis_samples: 10
+device: cuda
